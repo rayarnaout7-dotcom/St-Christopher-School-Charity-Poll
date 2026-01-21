@@ -1,0 +1,8 @@
+{
+  "name": "St Christopher School Charity Poll",
+  "description": "An official school fundraising initiative where students and faculty vote for their preferred cause through direct donations via Benefit Pay.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
