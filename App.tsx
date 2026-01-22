@@ -228,7 +228,7 @@ const App: React.FC = () => {
         </div>
       </header>
 
-      {/* Campaigns */}
+      {/* Campaigns (Images Removed for Clean UI) */}
       <main className="max-w-6xl mx-auto px-6 py-24 w-full">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {campaigns.map((campaign, idx) => (
@@ -260,21 +260,21 @@ const App: React.FC = () => {
               <h2 className="text-5xl font-black mb-12 tracking-tighter text-white">School Voting Guide</h2>
               <div className="space-y-12">
                 <div className="flex gap-8">
-                  <div className="w-16 h-16 bg-amber-800 rounded-3xl flex items-center justify-center font-black text-3xl shadow-xl shrink-0 border border-amber-700">1</div>
+                  <div className="w-16 h-16 bg-amber-800 rounded-3xl flex items-center justify-center font-black text-3xl shadow-xl shrink-0 border border-amber-700 text-white">1</div>
                   <div>
                     <h4 className="text-2xl font-black mb-2 tracking-tight text-white">Vote With Value</h4>
                     <p className="text-amber-100 opacity-90 leading-relaxed text-lg font-medium">Every Bahraini Dinar equals one vote. Higher donations mean more influence on the final result.</p>
                   </div>
                 </div>
                 <div className="flex gap-8">
-                  <div className="w-16 h-16 bg-amber-800 rounded-3xl flex items-center justify-center font-black text-3xl shadow-xl shrink-0 border border-amber-700">2</div>
+                  <div className="w-16 h-16 bg-amber-800 rounded-3xl flex items-center justify-center font-black text-3xl shadow-xl shrink-0 border border-amber-700 text-white">2</div>
                   <div>
                     <h4 className="text-2xl font-black mb-2 tracking-tight text-white">Reliable Methods</h4>
                     <p className="text-amber-100 opacity-90 leading-relaxed text-lg font-medium">Digital transfers via <strong>Benefit Pay</strong> or bring physical cash to <strong>Room 8C</strong>.</p>
                   </div>
                 </div>
                 <div className="flex gap-8">
-                  <div className="w-16 h-16 bg-amber-800 rounded-3xl flex items-center justify-center font-black text-3xl shadow-xl shrink-0 border border-amber-700">3</div>
+                  <div className="w-16 h-16 bg-amber-800 rounded-3xl flex items-center justify-center font-black text-3xl shadow-xl shrink-0 border border-amber-700 text-white">3</div>
                   <div>
                     <h4 className="text-2xl font-black mb-2 tracking-tight text-white">Real-Time Sync</h4>
                     <p className="text-amber-100 opacity-90 leading-relaxed text-lg font-medium">Your vote is saved instantly! Persistence ensures that every contribution is counted accurately.</p>
